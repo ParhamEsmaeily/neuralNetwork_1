@@ -26,7 +26,7 @@ The script is divided into several parts:
 2. **Data Preparation**: Arrays for training and target data are defined.
 3. **Model Building**: A neural network model with one hidden layer is constructed using Keras.
 4. **Model Compilation**: The model is compiled with the Adam optimizer and binary cross-entropy loss function.
-5. **Training**: The model is trained on the provided dataset for 1000 epochs.
+5. **Training**: The model is trained on the provided dataset for 100 epochs.
 6. **Testing**: New data is tested using the trained model to make predictions.
 7. **Output**: The script outputs the input data, the model's prediction, and a binary representation of the prediction.
 
