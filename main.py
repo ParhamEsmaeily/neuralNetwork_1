@@ -63,7 +63,7 @@ model = keras.Sequential([
 # Compile the model
 model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
 # Train the model epoch = that the training data is fed to the model 1000 times
-model.fit(training_data, target_data, epochs=1000, verbose=1)
+model.fit(training_data, target_data, epochs=100, verbose=1)
 # Testing data
 testing_data = np.array([[1, 1, 0, 0, 0],
                          [1, 1, 0, 0, 1],
